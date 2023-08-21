@@ -1,0 +1,93 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 ;
+    font-style: italic;
+    display: grid;
+    justify-content: center;
+    color: rgb(4, 103, 103);
+}
+
+fieldset{
+    border-radius: 7px;
+    border-color:darkcyan;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+
+}
+
+label {
+    display: block; /* Размещение label на отдельной строке */
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+}
+
+.button-submit{
+    margin-top: 2%;
+    background-color:rgb(107, 107, 107);
+    color: white;
+    width: 100px;
+    height:30px;
+}
+
+.button-submit:hover{
+    background-color: rgb(0, 128, 150);
+    transition: 0.4s ;
+}
+
+.reset-submit{
+    color: white;
+    width: 100px;
+    height:30px;
+    margin-top: 2%;
+    background-color:rgb(107, 107, 107);
+}
+
+.buttons{
+    display: flex;
+}
+
+.reset-submit:hover{
+    background-color: rgb(0, 128, 150);
+    transition: 0.4s;
+}
+
+.colorit{
+   width: 40px;
+
+}
+
+select{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+
+}
+
+.file-border{
+    border-color: white;
+    border-width: 0px;
+    border-radius: 0%;
+    color: black;
+}
