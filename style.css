@@ -24,10 +24,12 @@ input {
     border-style: solid;
     border-color: rgb(216, 216, 216);
 
-}
+} 
+
+/* label */
 
 label {
-    display: block; /* Размещение label на отдельной строке */
+    display: block; 
     margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
