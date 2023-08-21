@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+         <legend> Basic user 1 information: </legend>
+                <label>Full name:</label>
+                <input type="text" name="name"><br>
+                <label>Email:</label>
+                <input type="email" name="email"><br>
+                <label>Password:</label>
+                <input type="password" name="Pass"><br>
+                <label>Confirm password</label>
+                <input type="password">
+
+             <div class="flex-container"> 
+                <label>Gender:</label>
+                <input type="radio" name="Male">
+                <label class="gender">Male</label>
+
+                <input type="radio"  name="Female">
+                <label class="gender" >Female </label>
+                
+                 <input type="radio"  name="Other">
+                 <label class="gender">Other</label>
+                 
+                </div> 
+                 
+            <br> <label>Date Birdth:</label>
+                 <input type="date">
+        </fieldset> 
+        <fieldset>
+                <legend>Adress information: </legend>
+                <label>Street adress:</label>
+                  <textarea></textarea>
+        <br> <label> Country:</label>
+                <select name="Country">
+                    <option>USA</option>
+                    <option>Moldova</option>
+                    <option>Germany</option>
+                    <option>England</option>
+                    <option>China</option>
+                </select>
+            <br><label>City: </label>
+                <input type="text">
+            <br> <label>Postal code: </label>
+                <input type="number">
+            </fieldset>
+            <fieldset>
+                <legend>Prefernces: </legend>
+                <label>Preferred Contact Method:</label>
+                <label>Email</label>
+                <input type="checkbox">
+                <label >Phone</label>
+                <input type="checkbox">
+                <label>Pos.Mail</label>
+                <input type="checkbox">
+
+            <div class="color">
+                
+             <br><label>Color:</label>
+                <input type="color" class="colorit">
+
+            </div>
+
+            </fieldset>
+            <fieldset>
+                
+                <legend>Profile:</legend>
+                <input type="file" class="file-border">
+            <br><label>Website URL</label>
+                <input type="url">
+            <br><label>Experience level with html:</label>
+             <input type="range" min="0" max="10" value="0" id="slider" onchange="updateValue()">
+            </fieldset>
+            <fieldset>
+                <legend>Additional Details:</legend>
+                <label>How did you hear about us?: </label>
+                <select>
+                    <option>Internet</option>
+                    <option>Advertisement</option>
+                    <option>Friend</option>
+                    <option>Other</option>
+                </select>↩
+               <br><label>Feedback/Comments </label>
+                <textarea></textarea>
+            </fieldset>
+            <div class="buttons"> 
+                <input class="button-submit" type="submit">
+                <input class="reset-submit" type="reset">
+            </div>
+    </form>
+</body>
+</html>
